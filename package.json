@@ -1,0 +1,25 @@
+{
+  "name": "sua_vaga",
+  "version": "1.0.0",
+  "description": "Sistema web para as pessoas encontrarem vaga de emprego e postarem suas vagas.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "jobs",
+    "developers"
+  ],
+  "author": "Cold Hand",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "sequelize": "^6.37.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
